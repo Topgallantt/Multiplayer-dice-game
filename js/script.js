@@ -25,6 +25,8 @@ const init = function () {
   
   score0El.textContent = 0;
   score1El.textContent = 0;
+  curent0El.textContent = 0;
+  curent1El.textContent = 0;
   diceEl.classList.add('hidden');
 
   player0El.classList.remove('player--winner');
