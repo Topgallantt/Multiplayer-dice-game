@@ -37,8 +37,9 @@ main {
 }
 
 .player {
+  justify-content: space-between;
   flex: 50%;
-  padding: 9rem;
+  padding: 0rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -54,6 +55,8 @@ main {
   word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  margin-top: 7%;
+  color: #632811;
 }
 
 .score {
@@ -82,10 +85,11 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  width: 65%;
+  width: 42%;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
+  margin-bottom: 17.5%;
 }
 
 .current-label {
@@ -171,4 +175,24 @@ main {
 }
 .hidden {
   display: none;
+}
+
+.win {
+  background-color: #2ebf66;
+  opacity: 0.8;
+  border-radius: 9px;
+  color: #fff;
+  width: 97.62px;
+  padding: 0.8rem;
+  text-align: center;
+  transition: all 0.75s;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+}
+
+.win1 {
+  align-self: flex-start;
+}
+.win2 {
+  align-self: flex-end;
 }
